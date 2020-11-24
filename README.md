@@ -14,7 +14,7 @@ This Script will help you to "track" and save YouTube video metrics and evolutio
 - create a script to process JSON data to pandas dataframe or similar :)
 
 **JSON file example**
-filename: 2020-11-24_ERhi8yTfW5Q.json
+filename: 2020-11-24-10-06_ERhi8yTfW5Q.json
 ```JSON
 {
     "capture_info": {
