@@ -118,7 +118,7 @@ def scrape(id, index):
         data["capture_info"]["method"] = "scrapping"
         data["capture_info"]["date"] = time.strftime("%Y-%m-%d-%H-%M")
 
-        captured_on = time.strftime("%Y-%m-%d")
+        captured_on = time.strftime("%Y-%m-%d-%H-%M")
         file_name = captured_on + "_" + id
         with open(os.path.join(save_path, file_name + ".json"), "w", encoding='utf-8') as write_file:
             json.dump(data, write_file, sort_keys=True, indent=4, ensure_ascii=False)
